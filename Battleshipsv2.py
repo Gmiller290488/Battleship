@@ -35,7 +35,7 @@ if ship_row_2 == ship_row_1 and ship_col_2 == ship_col_1:
     elif ship_row_2 < 1:
         ship_row_2 = ship_row_2 + 1
 print_board(board)
-print (ship_row_1, ship_col_1, ship_row_2, ship_col_2)
+
 # get the guess from the user
 print("Let's play BattleShips!")
 print("There are", boats, "Battleships!")
